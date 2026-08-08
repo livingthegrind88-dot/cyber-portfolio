@@ -1,0 +1,180 @@
+﻿Control Catagories
+
+Technical controles
+    • controls implemented using systems
+    • operating system controls
+    • Firewalls and antivirus
+
+
+Managerial controls
+    • Administrative controls associated with security design and implentation
+    • Security policies, standard operating procedures
+
+Operational controls
+    • Controls implemented by people instead of systems
+    • security guards, awareness programs
+
+Physical Controls
+    • limit physical access
+    • Guard shacks
+    • Fences and locks
+    • Badge Readers
+
+
+Control Types
+
+Preventative
+    • Block access to a resource
+Prevent access by:
+    • Firewall rules-technical
+    • Follow security policy-Managerial
+    • Guard shack checks all identification-Operational
+    • Enable door locks-Physical
+
+Deterrent
+    • Discourage an intrusion attempt
+    • Does not directly prevent access
+      Makes an attacker think twice
+    • application splash screens- Technical
+    • threat of termination or demotion- Managerial
+    • Front Receptionist desk - Operational
+    • Posted Warning Signs- Physical
+
+Detective-Identify and log an intrusion attempt, may not prevent Access
+    • Collect and review system logs-Technical
+    • Review Login reports-Managerial
+    • Regularly patrol property-Operational
+    • enable motion detectors-Physical
+
+Corrective- apply a controle after an event has been detected, reverse the impact of an event, continue operating with minimal downtime
+    • Restoring from backups can mitigate ransomware infection-technical
+    • Create policies for reporting security issues-managerial
+    • Contact law enforcement to manage criminal activity-operational
+    • Use a fire extinguisher if electrical fire is started -physical
+
+Compensating-control using other means, Existing controls are not sufficient, May be temporary 
+    • Prevent the exploitation weakness by having firewall block a specific application instead of applying patch-technical
+    • Implement a separation of duties-managerial
+    • Require simultaneous guard duties-operational
+    • Generator used after power outage-physical
+Directive
+    • A directive, not really technically not a control like an advisory on a door but no lock
+
+CIA triad, fundamentals of security, or AIC triad\
+C-confidentiality-Prevent disclosure of informatin to unauthorized individuals or systems
+I-Integrity-messages can’t be modified without detection
+A-Availability- systems and networks must be up and running at all times
+
+Confidentiality
+    • Certain information should only be known to certain people-prevent unauthorized information disclosure
+    • Encryption- Encode messages so only certain people can read it
+    • Access controls- selectively restrict access to a resource 
+    • Two factor authentication
+
+Integrity
+    • Data is stored and transferred as intended-Any modification to the data would be identified
+    • Hashing-map data of an abritrary length to data of fixed length
+    • Digital signature-mathematical scheme to verify the integrity of the data
+    • Certificates-Combine with digital signature to verify the individual
+    • Non-repudiation  - Provide proof of integrity
+
+Availability
+    • Information is accessible to authorized users0 always at your fingertips
+    • Reduntancy- Build services that will always be available I.e backup  ISP, alternate systems
+    • Fault tolerance – system will continue on even when an error occurs I.e if one program or protocol fails the entire system does not shutdown
+    • Patching – stability and security holes
+
+Non-repudiation- verify data does not change, the data remains accurate and consistent.  In 	cryptography Hash is used.
+    • Represent data as a short string of text
+    • A message digest, a fingerprint
+	if the data changes the hash changes, I.e if data is injected
+    • Digital signature – added level to show origin
+
+Authentication, authorization and accounting
+    • Identification
+	This is who you claim to be, I.e your username/email
+    • Authentication
+	Prove you are who you say you are, password and other authentication factors I.e text or 	authentication devices/hardware
+    • Authorization
+          Based on your identification and authentication, what access you have
+    • Accounting
+	Info that should be recorded: Login time, Data sent and received and Logout time
+Authentication
+In most cases its done by using certificate placed on system by administrator, the certificate is created by the companies CA aka Certificate Authority which is a system that creates a certificate for a device with a digital signature.
+
+Gap analysis-comparing where you are and where you want to be, this includes, knowledge, data, skills, or system security.
+    • The comparison-evaluate existing systems
+    • Identifying weaknesses- along with the most effect processes
+    • Detailed analysis- examine broad security categories, Break those into smaller segments
+    • the final comparison Detailed baseline objectives, A clear view of the current state.
+    • Need a path to get from the current security to the goal- this will most certainly include time, money, and lots of change control
+    • Time to creat ethe gap analysis report-a formal description of the current state , recommendations for meeting the baseline.
+
+
+
+Zero Trust
+    • Many networks are relatively open on the inside-once your through the firewall there are few security controls
+    • Zero trust is a holistic approach to network security- covers every device, every process, every person on the network
+    • Everything must be verified- nothing is trusted, multi-factor authentication, encryption, system permissions, additional firewalls, monitoring and analysis, etc.
+Split the data into functional planes-applies to physical, virtual and cloud components
+Data plane
+    • process the frames, packets and the network data.  Processing forwarding, trunking, encrypting , NAT(network address translation)
+Control Plane
+    • Manages the actions of the data plane
+    • Define policies and rules
+    • Determines how packets should be forwarded
+    • Routing tables, session tables, NAT tables
+Adaptive Identity
+    • Consider the source and the requested resources
+    • Multiple risk indicators-relationship to the organization, physical location, type of connection, ip address, etc
+    • Make the authentication stronger if neeeded.
+Threat scope reduction
+    • Decrease the numbjer of possible entry points I.e can only access from within the building or on campus or company vpn.
+Policy driven access controls
+    • Combine the adaptive identity with a predefined set of rules
+Security zones
+    • Security is more than a one-to-one relationship- broad categories provide a security-related foundation
+    • Where are you coming from and where are you going
+	-trusted, untrusted
+	-internal network, external network
+	-vpn 1, vpn 5, vpn 11 (different connections for different services or groups)
+	-Different groups Marketing, IT, Accounting, Human resources
+    • Using the zones may be enough by itself to deny access- for example Untrusted to trusted zone traffic-For example if in a trusted zone  to internal zone the permission maybe b impenitently permitted.
+Policy enforcement point (PEP)
+    • Subjects and systems-End users, applications, non human entities
+    • Policy enforcement point-the gatekeeper
+    • Allow , monitor, and terminate connections-can consist of multiple components working together 
+
+
+ 
+
+
+
+Physical Security
+    • Prevent access-there are limits to the prevention
+    • Channel people through a specific access point- and keep out of other things/  Allow people , prevent cars and trucks.
+    • Identify safety concerns- and prevent injuries
+    • Can be used to an extreme-concrete barriers/bollards, Moats
+Access control vestibules
+    • All doors normally unlocked- opening one door causes others to lock
+    • All doors normally locked- unlocking one door prevents others from being unlocked
+    • One door open / others locked – when one is open the other cannot be unlocked
+    • One at a time , controlled groups- Managed control through an area
+Build a permiter0 usually very obvios, may not be what your looking for 
+Video surveillance 
+    • cctv -can replace physical guards
+Security Guards
+
+
+Deception and disruption
+	HoneyPots
+    • Attract the bad guys- and trap them there
+    • The “attacker” is probably just a machines-makes for interesting recon
+    • Honeypots-create a virtual world to explore
+    • Constant battle to discern the real from the fake
+Honeynets
+    • A real network has more than a single device-servers, workstations, routers, switches, firewalls
+    • Honeynets- build a larger deception network with one or more honeypots
+    • 
+
+      

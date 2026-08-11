@@ -1,4 +1,4 @@
-# OverThewire Bandit - levels 0-4
+# OverThewire Bandit - levels 5-8
 
 ** objective:** same as before ssh into a linux filesystem and progress 
 through the levels.

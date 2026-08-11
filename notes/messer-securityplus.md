@@ -162,3 +162,288 @@ Prevent access (with limits). Channel people through a specific access point; id
 **Honeynets**
 - A real network has more than one device (servers, workstations, routers, switches, firewalls)
 - Build a larger deception network with one or more honeypots
+
+*attract the attackers with more honey
+- Create files with fake information.
+- something bright and shiny.
+
+**Honeyfiles**
+- Bait for the honeynet(passwords.txt)
+- Add many honeyfiles to file shares.
+
+* An alert is sent if the file accessed
+- A virtual bear trap.
+
+* Track the malicious actors
+- Add some traceable data to the honeynet
+- If the data is stolen, you'll know where it came from.
+
+* API credentials
+- Does not actually provide access.
+- Notifications are sent when used
+
+* Fake email addresses
+- Add it to a contact list, add and remove as
+
+* other honeytoken examples
+- Database records, browser cookies web page pics
+
+
+**Change management**
+- How to make a change
+Upgrade software, patch an application, change firewall configuration, modify switch ports.
+
+- One of the most common risks in the enterprise
+Occurs very frequently
+
+- Often overlooked or ignored
+Did you feel that bite?
+
+- Have clear policies
+Frequency, duration, installation process, rollback procedures
+
+- Sometimes extremely difficult 
+Its hard to change corporate culture
+
+* A formal process for managing a change
+- avoid downtime , confusion, and mistakes
+
+* A typical approval process
+- Complete the request forms
+- Determine the purpose of the change
+- Identify the scope of the change
+- Schedule a date and the time of the change
+- Determine affected systems and the impact
+- Analyze the risk associated with the change
+- Get approval from the change control board
+- Get end user feedback
+
+* An individual or entity needs to make a change
+- They own the process
+- They don't (usually) perform the actual change
+
+* The owner manages the process
+- Process updates are provided to the owner.
+- Ensures the process is followed and acceptable 
+
+* address label printers need to be upgraded 
+- shipping and receiving department owns the process
+- IT handles the change
+
+Stakeholders
+
+* who is impacted by the change
+- They'll want to have input on the change management process
+
+* This may not be as obvious as you may think
+- A single change can include one individual or the entire company
+
+* Upgrade software used by shipping labels
+- Shipping / Receiving 
+- Accounting reports
+- Product Delivery timeframes
+- Revenue recognition - CEO visibility
+
+* Determine a risk value
+- i.e high, medium, or low
+
+* The risks can be minor or far reaching
+- The "fix" doesn't actually fix anything
+- The fix breaks something else
+- Operating system failures
+- Data corruption
+
+* whats the risk of NOT making the change?
+- Security Vulnerability
+- Application Vulnerability
+- Unexpected Downtime to other services
+
+* Testing
+
+* Sandbox testing environment
+- No connection to the real world or production systems
+- A technological safe space
+
+* Use before making a change to production
+- Try upgrade then apply patch
+- Test and confirm before deployment
+
+* Confirm the backout plan
+- Move everything back to the original 
+- A sandbox con't consider every possibility
+
+* back out plans are very important, therefore always need to have one
+
+* You should always have a way to revert your changes
+- Prepare for the worst, hope for the best
+
+* This isnt as easy as it sounds
+- Some changes are hard to revert 
+
+* Always have backups
+- Always have good backups
+
+* Maintenance window
+
+* when is the change happening?
+- This might be the most difficult part of the process
+
+* During the work day may not be the best option
+- Potential downtime would affect a large part of production
+
+* overnights are often a better choice
+- challenging for a 24 hour production schedule vs a business that is open standard business hours so IT will be seen applying updates early in the morning or on holidays.
+
+* The time of year may be a consideration
+- retail networks are frozen during the holiday season
+
+* standard operating procedure (SOP)
+
+* Change management is critical
+- Affects everyone in the organization
+
+* The process must be well documented
+- Should be available on the intranet
+- Along with all standard operating procedures
+
+* Changes to the process are reflected in the standards
+- A living document that is ever updating
+
+**technical change Management**
+
+* Put the change management process into action
+- Execute the plan
+
+* There is no such thing as a simple upgrade
+- Can have many moving parts
+- Separate events may be required
+
+* Change management is often concerned with "what" needs to change.
+- The technical team is concerned with "how" to change it.
+
+* Allow list/ Deny list
+
+* Any application can be dangerous
+- Vulnerabilities, trojan horses, malware
+
+* Security Policy can control app execution
+- Allow list, deny/block list
+
+* Allow list
+- Nothing runs unless its approved
+- Very restrictive
+
+* Deny List
+- No application on the deny list can be executed/ran
+- Anti virus, Anti- Malware are a good example
+
+* Restricted activities
+
+* The scope of change is important 
+- Defines exactly which components are covered
+
+* A change approval isn't permission to make any change
+- The change control approval is very specific
+- Should not apply additional changes just because the time window
+is open
+
+* The scope may need to be expanded during the change window
+- It's impossible to prepare for all possible outcomes, like if you have to update individual workstation config files after applying a driver update
+
+* The change management process determines the next steps
+- There is a process in place to make the change successful 
+
+* Downtime
+
+* Services will eventually be unavailable 
+- The change process can be disrupted
+- Usually scheduled during non production hours
+
+* If possible prevent any downtime
+- Switch to secondary system , upgrade the primary one then switch back.
+
+* Minimize any downtime events
+- The process should be automated as possible
+- Switch back to secondary if issues appear
+- Should be part of backout plan
+
+* Send emails and calendar updates
+
+* Restarts
+
+* It's common to require a restart
+- Implement the new configuration
+- Reboot the OS, power cycle the switch, bounce the service(stop and start service again) 
+- Can the system recover from a power outage
+
+* Services
+- Stop and restart the service in windows task manager or in linux restart a daemon
+- May take seconds or minutes
+
+* Applications
+- Close Applications completely
+- Launch a new application instance
+
+* legacy systems
+
+* Some applications were here before you arrived
+- They will be there after you leave i.e windows 98 running mass transit systems
+
+* Often no longer supported by the developer
+- You are now the support team
+
+* Fear of the unknown
+- Face your fears and document the system
+- May not be as bad as you think.
+
+* May be quirky
+- Create specific programs and procedures for legacy systems.
+
+* Dependencies
+
+* To complete A, you must complete B
+- A service will not start without other active services
+- An application requires a specific library version
+
+* Modifying one component may require changing or restarting other components.
+- This can be challenging to manage
+
+* Dependencies may occur across systems
+- Update the firewall code first
+- Then upgrade the firewall management software
+
+* Documentation
+
+* it can be challenging to keep up with changes
+- Documentation can become outdated very quickly
+
+* Updating diagrams
+- Modifications to network configurations
+- I.P address updates
+
+* version control
+
+* Track changes to a file or configuration data over time
+- Easily revert to previous setting
+
+* Many opportunities to manage versions, examples
+- Router configurations
+- Windows OS patches
+- Application registry entries
+
+* Not always straightforward
+- Some devices and OS provide version control features 
+- May require additional management software
+
+
+
+
+
+
+
+
+
+
+
+
+

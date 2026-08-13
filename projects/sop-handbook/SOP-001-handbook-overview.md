@@ -23,6 +23,7 @@ This handbook is a growing collection of standardized forms and procedures for d
 | SOP-001 | Handbook Overview and Document Usage | This document. Describes the purpose and use of each form and document in the handbook, and acts as the handbook's index. |
 | FORM-001 | Technical / Incident Write-Up | Used to document incidents, and — over the course of completing this handbook — to document lab exercises and technical tasks. Captures Objective, Environment, Actions Taken, Result, and Takeaway. |
 | FORM-002 | Event / Study Analysis | Used to document study sessions — captures key concepts, definitions, exam flags, connections to prior knowledge, and questions raised. Primary use: Professor Messer videos and TryHackme rooms.
+| FORM-003 | Penetration Testing Hardware / Tool Usage | Used to document authorized hardware engagements and tool usage — captures device details, firmware, authorization, actions taken, findings, cleanup, and takeaway. |
 ## Usage notes
 - **Read SOP-001 first** to identify the correct document for the task at hand.
 - **Use FORM-001** to record an incident, investigation, lab, or technical task in a consistent, repeatable format.

@@ -13,15 +13,20 @@ how a security team keeps its documentation auditable and repeatable across peop
 So I began building one, starting with the first form.
 
 ## Contents
-- [FORM-001 — Technical / Incident Write-Up](./FORM-001-writeup.md) — the standard
-  format for documenting a lab exercise, investigation, or technical task
-  (Objective, Environment, Actions Taken, Result, Takeaway).
+
+| ID | Title | Purpose |
+|----|-------|---------|
+| [SOP-001](./SOP-001-handbook-overview.md) | Handbook Overview and Document Usage | Read this first — the index and usage guide for the handbook |
+| [FORM-001](./FORM-001-writeup.md) | Technical / Incident Write-Up | Document incidents, lab exercises, and technical tasks |
+| [FORM-002](./FORM-002-study-analysis.md) | Event / Study Analysis | Document study sessions — Messer videos, TryHackMe rooms |
+| [FORM-003](./FORM-003-pentest-hardware.md) | Penetration Testing Hardware / Tool Usage | Document authorized hardware engagements and tool usage |
 
 ## Document control
 Each form carries an ID, version, and status in its header so it can be referenced
-and updated as a controlled document. Planned additions include a procedure document
-(SOP-001) describing how and when each form is used, and further forms as the scope
-grows.
+and updated as a controlled document. New forms and procedures are registered in
+SOP-001 as they are created.
 
 ## Status
-Active and expanding as my program progresses.
+Active and expanding as the program progresses. Planned additions include an
+interactive CLI script (newwriteup.sh) for deploying forms quickly, and further
+forms as the scope grows.

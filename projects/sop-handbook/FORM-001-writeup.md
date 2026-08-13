@@ -19,8 +19,8 @@
 ## Actions Taken
 [Chronological account of what was done and the reasoning behind each step.]
 
-- **[Step / Level A→B]** — [command or action, what happened, how it was reasoned through.]
-- **[Step / Level B→C]** — [same.]
+- **[Step / Level A -> B]** — [command or action, what happened, how it was reasoned through.]
+- **[Step / Level B -> C]** — [same.]
 
 ## Result
 [The outcome — what was recovered, resolved, or achieved.]
